@@ -1,9 +1,9 @@
 #Variables to define the Windows OS / Edition etc to be applied during OSDCloud$OSImageIndex = '1'
 $OSLanguage = 'en-us'
 $OSActivation = 'Retail'
-$ImageFileItem = 'D:\OSDCloud\OS\Install.wim'
-$OSImageIndex = '1'
 $OSName = 'D:\OSDCloud\OS\Install.wim'
+$OSEdition = 'Windows 11 Enterprise LTSC'
+$OSImageIndex = '1'
 
 #Set OSDCloud Vars
 $Global:MyOSDCloud = [ordered]@{
@@ -21,4 +21,7 @@ $Global:MyOSDCloud = [ordered]@{
 
 
 
-Start-OSDCloud -OSActivation $OSActivation -OSLanguage $OSLanguage
+#Launch OSDCloud
+Write-Host "Starting OSDCloud" -ForegroundColor Green
+write-host "Start-OSDCloud -OSName $OSName -OSEdition $OSEdition -OSImageIndex $OSImageIndex"
+Start-OSDCloud -OSName $OSName -OSEdition $OSEdition -OSImageIndex $OSImageIndex -OSActivation $OSActivation
