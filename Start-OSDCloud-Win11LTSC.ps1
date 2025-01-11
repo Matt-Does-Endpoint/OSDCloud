@@ -24,4 +24,4 @@ Write-Host "Starting OSDCloud" -ForegroundColor Green
 write-host "Start-OSDCloud -OSName Windows 11 LTSC -OSLanguage $OSLanguage"
 
 #Launch OSDCloud
-Start-OSDCloud -findimagefile
+Start-OSDCloud
