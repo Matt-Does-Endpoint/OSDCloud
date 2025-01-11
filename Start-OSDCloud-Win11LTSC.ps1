@@ -21,4 +21,4 @@ $Global:MyOSDCloud = [ordered]@{
 
 
 
-Start-OSDCloud -OSName $OSName -OSActivation $OSActivation -OSLanguage $OSLanguage
+Start-OSDCloud -OSActivation $OSActivation -OSLanguage $OSLanguage
