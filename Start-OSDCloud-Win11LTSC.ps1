@@ -18,7 +18,7 @@ $Global:MyOSDCloud = [ordered]@{
 }
 
 #Launch OSDCloud
-Write-Host "Starting OSDCloud" -ForegroundColor Green
-write-host "Start-OSDCloud -OSImageIndex $OSImageIndex"
+
+
 
 Start-OSDCloud -OSActivation $OSActivation -OSLanguage $OSLanguage
