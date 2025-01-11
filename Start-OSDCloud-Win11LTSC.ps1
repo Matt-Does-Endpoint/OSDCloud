@@ -16,7 +16,7 @@ $Global:MyOSDCloud = [ordered]@{
     ImageFileItem = [string]Get-Item 'D:\OSDCloud\OS\Win11LTSC.wim'
     ImageFileFullName = [string]'D:\OSDCloud\OS\Win11LTSC.wim'
     ImageFileName = [string]'Win11LTSC.wim'
-    OSImageIndex = [string]'1'
+    OSImageIndex = [string]'AUTO'
 }
 
 #Launch OSDCloud
