@@ -20,4 +20,4 @@ $Global:MyOSDCloud = [ordered]@{
 Write-Host "Starting OSDCloud" -ForegroundColor Green
 write-host "Start-OSDCloud -OSImageIndex $OSImageIndex"
 
-Start-OSDCloud -OSImageIndex $OSImageIndex -ImageFileSource $ImageFileSource
+Start-OSDCloud
