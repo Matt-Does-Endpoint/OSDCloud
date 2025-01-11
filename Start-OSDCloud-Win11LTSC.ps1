@@ -22,4 +22,5 @@ Write-Host "Starting OSDCloud" -ForegroundColor Green
 write-host "Start-OSDCloud -OSName Windows 11 LTSC -OSLanguage $OSLanguage"
 
 #Launch OSDCloud
-Start-OSDCloud -FindImageFile | where-object -eq "Win11LTSC.WIM"
+Start-OSDCloud -FindImageFile
+#| where-object -eq "Win11LTSC.WIM"
