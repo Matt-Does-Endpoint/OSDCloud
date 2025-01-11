@@ -20,6 +20,5 @@ $Global:MyOSDCloud = [ordered]@{
 # ImageFileFullName = 'D:\OSDCloud\OS\Win11LTSC.wim'
 Write-Host "Starting OSDCloud" -ForegroundColor Green
 write-host "Start-OSDCloud -OSName Windows 11 LTSC -OSLanguage $OSLanguage"
-Select-OSDCloudImageIndex -ImagePath $Global:StartOSDCloud.ImageFileItem
 #Launch OSDCloud
 Start-OSDCloud -ImageIndex '1'
