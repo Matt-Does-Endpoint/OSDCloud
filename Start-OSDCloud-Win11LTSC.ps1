@@ -1,7 +1,7 @@
 #Variables to define the Windows OS / Edition etc to be applied during OSDCloud
 $OSLanguage = 'en-us'
 $OSImageIndex = '1'
-$ImageFileURL = 'D:\OSDCloud\OS\Install.wim'
+$ImageFileURL = 'D:\OSDCloud\OS\Win11LTSC.wim'
 
 #Set OSDCloud Vars
 $Global:MyOSDCloud = [ordered]@{
