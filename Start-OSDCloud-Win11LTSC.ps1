@@ -13,9 +13,9 @@ $Global:MyOSDCloud = [ordered]@{
     WindowsDefenderUpdate = [bool]$true
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$false
-    ImageFileItem = [string]Get-Item 'D:\OSDCloud\OS\Win11LTSC.wim'
-    ImageFileFullName = [string]'D:\OSDCloud\OS\Win11LTSC.wim'
-    ImageFileName = [string]'Win11LTSC.wim'
+    ImageFileItem = Get-Item 'D:\OSDCloud\OS\Win11LTSC.wim'
+    ImageFileFullName = 'D:\OSDCloud\OS\Win11LTSC.wim'
+    ImageFileName = 'Win11LTSC.wim'
 }
 
 #Launch OSDCloud
