@@ -17,7 +17,7 @@ $Global:MyOSDCloud = [ordered]@{
 
 #Launch OSDCloud
 Write-Host "Starting OSDCloud" -ForegroundColor Green
-write-host "Start-OSDCloud -OSName Windows 11 LTSC -OSActivation $OSActivation -OSLanguage $OSLanguage"
+write-host "Start-OSDCloud -OSName Windows 11 LTSC -OSLanguage $OSLanguage"
 
 #Launch OSDCloud
 Start-OSDCloud -ImageFileURL $ImageFileURL -OSImageIndex $OSImageIndex
