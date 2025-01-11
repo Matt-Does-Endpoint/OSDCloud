@@ -1,6 +1,5 @@
 #Variables to define the Windows OS / Edition etc to be applied during OSDCloud
 $OSLanguage = 'en-us'
-$OSActivation = 'Retail'
 $OSImageIndex = '1'
 $ImageFileTarget = 'D:\OSDCloud\OS\Install.wim'
 $OSImageIndex = '1'
