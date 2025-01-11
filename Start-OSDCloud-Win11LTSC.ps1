@@ -1,8 +1,7 @@
 #Variables to define the Windows OS / Edition etc to be applied during OSDCloud
 $OSLanguage = 'en-us'
 $OSImageIndex = '1'
-$ImageFileTarget = 'D:\OSDCloud\OS\Install.wim'
-$OSImageIndex = '1'
+$ImageFileURL = 'D:\OSDCloud\OS\Install.wim'
 
 #Set OSDCloud Vars
 $Global:MyOSDCloud = [ordered]@{
@@ -21,4 +20,4 @@ $Global:MyOSDCloud = [ordered]@{
 
 
 #Launch OSDCloud
-Start-OSDCloud -findimagefile $imagefiletarget
+Start-OSDCloud -ImageFileURL $ImageFileURL -OSImageIndex $OSImageIndex
