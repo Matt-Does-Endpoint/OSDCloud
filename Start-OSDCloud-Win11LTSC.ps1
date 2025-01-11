@@ -12,14 +12,14 @@ $Global:MyOSDCloud = [ordered]@{
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$false
     ImageFileItem = 'D:\OSDCloud\OS\Win11LTSC.wim'
-    ImageFileFullName = 'D:\OSDCloud\OS\Win11LTSC.wim'
     ImageFileName = 'Win11LTSC.wim'
     OSImageIndex = '1'
 }
 
 #Launch OSDCloud
+# ImageFileFullName = 'D:\OSDCloud\OS\Win11LTSC.wim'
 Write-Host "Starting OSDCloud" -ForegroundColor Green
 write-host "Start-OSDCloud -OSName Windows 11 LTSC -OSLanguage $OSLanguage"
-#$Global:MyOSDCloudImageFileItem.FullName = 'D:\OSDCloud\OS\Win11LTSC.wim'
+Select-OSDCloudImageIndex -ImagePath $Global:StartOSDCloud.ImageFileItem
 #Launch OSDCloud
 Start-OSDCloud -ImageIndex '1'
