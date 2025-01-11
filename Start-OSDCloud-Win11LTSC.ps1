@@ -13,7 +13,8 @@ $Global:MyOSDCloud = [ordered]@{
     WindowsDefenderUpdate = [bool]$true
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$false
-    ImageFileItem = [bool]$ImageFileItem
+    ImageFileItem = 'D:\OSDCloud\OS\Install.wim'
+    OSImageIndex = 1
 }
 
 #Launch OSDCloud
