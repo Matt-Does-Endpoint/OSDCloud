@@ -1,4 +1,4 @@
-#Variables to define the Windows OS / Edition etc to be applied during OSDCloud$OSImageIndex = '1'
+#Variables to define the Windows OS / Edition etc to be applied during OSDCloud
 $OSLanguage = 'en-us'
 $OSActivation = 'Retail'
 $OSName = 'D:\OSDCloud\OS\Install.wim'
@@ -15,8 +15,8 @@ $Global:MyOSDCloud = [ordered]@{
     WindowsDefenderUpdate = [bool]$true
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$false
-    ImageFileItem = 'D:\OSDCloud\OS\Install.wim'
-    OSImageIndex = '1'
+    ImageFileItem = [bool]'D:\OSDCloud\OS\Install.wim'
+    OSImageIndex = [bool]'1'
 }
 
 #Launch OSDCloud
