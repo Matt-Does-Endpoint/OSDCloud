@@ -22,4 +22,4 @@ $Global:MyOSDCloud = [ordered]@{
 
 
 #Launch OSDCloud
-Start-OSDCloud
+Start-OSDCloud -imagefiletarget $imagefiletarget
