@@ -2,6 +2,8 @@
 $OSLanguage = 'en-us'
 $OSActivation = 'Retail'
 $OSImageIndex = '1'
+$ImageFileTarget = 'D:\OSDCloud\OS\Install.wim'
+$OSImageIndex = '1'
 
 #Set OSDCloud Vars
 $Global:MyOSDCloud = [ordered]@{
@@ -13,8 +15,6 @@ $Global:MyOSDCloud = [ordered]@{
     WindowsDefenderUpdate = [bool]$true
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$false
-    ImageFileTarget = 'D:\OSDCloud\OS\Install.wim'
-    OSImageIndex = '1'
 }
 
 #Launch OSDCloud
