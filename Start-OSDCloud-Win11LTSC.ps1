@@ -2,6 +2,7 @@
 $OSLanguage = 'en-us'
 $OSActivation = 'Retail'
 $ImageFileItem = 'D:\OSDCloud\OS\Install.wim'
+$OSImageIndex = '1'
 
 #Set OSDCloud Vars
 $Global:MyOSDCloud = [ordered]@{
@@ -21,4 +22,4 @@ $Global:MyOSDCloud = [ordered]@{
 
 
 
-Start-OSDCloud -OSActivation $OSActivation -OSLanguage $OSLanguage
+Start-OSDCloud -OSActivation $OSActivation -OSLanguage $OSLanguage -OSimageIndex $OsImageIndex
