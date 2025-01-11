@@ -2,7 +2,7 @@
 $OSName = 'D:\OSDCloud\OS\Win11LTSC.wim'
 $OSEdition = 'Windows 11 Enterprise LTSC'
 $OSImageIndex = '1'
-
+$ImageFileSource = 'D:\OSDCloud\OS\Install.wim'
 
 #Set OSDCloud Vars
 $Global:MyOSDCloud = [ordered]@{
@@ -20,4 +20,4 @@ $Global:MyOSDCloud = [ordered]@{
 Write-Host "Starting OSDCloud" -ForegroundColor Green
 write-host "Start-OSDCloud -OSImageIndex $OSImageIndex"
 
-Start-OSDCloud -OSImageIndex $OSImageIndex
+Start-OSDCloud -OSImageIndex $OSImageIndex -ImageFileSource $ImageFileSource
