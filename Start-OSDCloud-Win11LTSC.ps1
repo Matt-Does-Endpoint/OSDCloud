@@ -1,7 +1,6 @@
 #Variables to define the Windows OS / Edition etc to be applied during OSDCloud
 $OSLanguage = 'en-us'
 $OSActivation = 'Retail'
-$OSEdition = 'Windows 11 Enterprise LTSC'
 $OSImageIndex = '1'
 
 #Set OSDCloud Vars
