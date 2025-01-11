@@ -1,7 +1,5 @@
 #Variables to define the Windows OS / Edition etc to be applied during OSDCloud
 $OSLanguage = 'en-us'
-$ImageFileURL = 'D:\OSDCloud\OS\Win11LTSC.wim'
-$OSImageIndex = '1'
 
 #Set OSDCloud Vars
 $Global:MyOSDCloud = [ordered]@{
@@ -13,10 +11,10 @@ $Global:MyOSDCloud = [ordered]@{
     WindowsDefenderUpdate = [bool]$true
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$false
-    OSImageIndex = '1'
     ImageFileItem = 'D:\OSDCloud\OS\Win11LTSC.wim'
     ImageFileFullName = 'D:\OSDCloud\OS\Win11LTSC.wim'
     ImageFileName = 'Win11LTSC.wim'
+    OSImageIndex = '1'
 }
 
 #Launch OSDCloud
