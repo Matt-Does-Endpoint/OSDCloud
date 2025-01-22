@@ -28,4 +28,4 @@ Set-Content -Path "$OSDSCript" -Value $newValue -Force
 Write-Host "Starting OSDCloud" -ForegroundColor Green
 write-host "Start-OSDCloud -OSName Windows 11 LTSC -OSLanguage $OSLanguage"
 #Launch OSDCloud
-Start-OSDCloudWim -ImageIndex '1'
+Start-OSDCloud -ImageIndex '1'
