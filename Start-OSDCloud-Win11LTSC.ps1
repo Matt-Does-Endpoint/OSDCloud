@@ -23,7 +23,7 @@ $Global:MyOSDCloud = [ordered]@{
 #$newValue = $ScriptBody -replace '$Global:OSDCloud.ImageFileItem.Fullname', '$Global:OSDCloud.ImageFileItem'
 #Set-Content -Path "$OSDSCript" -Value $newValue -Force
 
-import-module -name OSD
+#import-module -name OSD
 #Launch OSDCloud
 #
 Write-Host "Starting OSDCloud" -ForegroundColor Green
