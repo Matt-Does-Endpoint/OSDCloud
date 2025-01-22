@@ -18,10 +18,10 @@ $Global:MyOSDCloud = [ordered]@{
 }
 
 #modify ps module to support local image selection
-$OSDSCript = Get-Item -Path "X:\Program Files\WindowsPowerShell\Modules\OSD\*\Public\OSDCloud.ps1" -erroraction SilentlyContinue
-$ScriptBody = Get-Content $OSDSCript -erroraction SilentlyContinue
-$newValue = $ScriptBody -replace '$Global:OSDCloud.ImageFileItem.Fullname', '$Global:OSDCloud.ImageFileItem'
-Set-Content -Path "$OSDSCript" -Value $newValue -Force
+#$OSDSCript = Get-Item -Path "X:\Program Files\WindowsPowerShell\Modules\OSD\*\Public\OSDCloud.ps1" -erroraction SilentlyContinue
+#$ScriptBody = Get-Content $OSDSCript -erroraction SilentlyContinue
+#$newValue = $ScriptBody -replace '$Global:OSDCloud.ImageFileItem.Fullname', '$Global:OSDCloud.ImageFileItem'
+#Set-Content -Path "$OSDSCript" -Value $newValue -Force
 
 import-module -name OSD
 #Launch OSDCloud
