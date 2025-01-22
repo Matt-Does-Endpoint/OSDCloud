@@ -12,7 +12,6 @@ $Global:MyOSDCloud = [ordered]@{
     ClearDiskConfirm = [bool]$False
     ShutdownSetupComplete = [bool]$false
     ImageFileItem = 'D:\OSDCloud\OS\Win11LTSC.wim'
-    ImageFileItem.Fullname = 'D:\OSDCloud\OS\Win11LTSC.wim'
     ImageFileFullName = 'D:\OSDCloud\OS\Win11LTSC.wim'
     ImageFileName = 'Win11LTSC.wim'
     OSImageIndex = '1'
